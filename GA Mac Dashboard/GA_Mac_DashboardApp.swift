@@ -88,7 +88,7 @@ struct GridCellData: Identifiable, Codable {
 
     init(id: Int) {
         self.id = id
-        self.url = UserDefaults.standard.string(forKey: "gridCell_\(id)_url") ?? ""
+        self.url = UserDefaults.standard.string(forKey: "gridCell_\(id)_url") ?? "https://analytics.google.com/"
     }
 
     func saveURL(_ newURL: String) {
