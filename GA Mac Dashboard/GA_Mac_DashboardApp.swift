@@ -12,6 +12,20 @@ struct GA_Mac_DashboardApp: App {
         }
         .commands {
             CommandGroup(replacing: .newItem) { }
+
+            CommandMenu("View") {
+                Button("Refresh All") {
+                    appState.refreshAll()
+                }
+                .keyboardShortcut("r", modifiers: .command)
+
+                Divider()
+
+                Button(appState.isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen") {
+                    appState.isFullscreen.toggle()
+                }
+                .keyboardShortcut("f", modifiers: [.command, .control])
+            }
         }
 
         Settings {
@@ -42,7 +56,6 @@ class AppState: ObservableObject {
     @Published var gridCells: [GridCellData] = []
     @Published var isFullscreen: Bool = false
 
-    let sharedProcessPool = WKProcessPool()
     let sharedWebsiteDataStore = WKWebsiteDataStore.default()
 
     private init() {

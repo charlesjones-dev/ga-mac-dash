@@ -20,7 +20,6 @@ struct GridCellView: View {
 
             WebView(
                 urlString: cellData.url,
-                processPool: appState.sharedProcessPool,
                 websiteDataStore: appState.sharedWebsiteDataStore,
                 cellId: cellData.id
             )

@@ -3,13 +3,11 @@ import WebKit
 
 struct WebView: NSViewRepresentable {
     let urlString: String
-    let processPool: WKProcessPool
     let websiteDataStore: WKWebsiteDataStore
     let cellId: Int
 
     func makeNSView(context: Context) -> WKWebView {
         let configuration = WKWebViewConfiguration()
-        configuration.processPool = processPool
         configuration.websiteDataStore = websiteDataStore
         configuration.preferences.setValue(true, forKey: "allowFileAccessFromFileURLs")
 
