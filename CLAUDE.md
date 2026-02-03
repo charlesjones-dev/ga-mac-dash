@@ -66,5 +66,5 @@ This CLAUDE.md file exists to be transparent about the development process and a
 ---
 
 **Built with:** [Claude Code](https://claude.com/claude-code)
-**Model:** Claude Sonnet 4.5
+**Model:** Claude Opus 4.5
 **Date:** February 2026
