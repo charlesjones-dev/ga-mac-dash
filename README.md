@@ -1,5 +1,8 @@
 # GA Mac Dashboard
 
+> [!WARNING]
+> **Retired — September 2026.** This project is unmaintained and will receive no further maintenance, features, bug fixes, or security updates. Contributions and support requests are no longer accepted. This repository is retained for historical reference; setup instructions below are historical and are not maintained or recommended for installation. Independent forks are welcome under the existing [MIT License](LICENSE). See [SUPPORT.md](SUPPORT.md) for the retirement policy.
+
 A native macOS application for viewing multiple Google Analytics real-time dashboards in a customizable grid layout.
 
 ![App Icon](GA%20Mac%20Dashboard/Assets.xcassets/AppIcon.appiconset/icon_256x256.png)
@@ -13,15 +16,17 @@ A native macOS application for viewing multiple Google Analytics real-time dashb
 - **Persistent URLs**: All URLs are automatically saved and restored between sessions
 - **Native Performance**: Built with Swift 6.0 and SwiftUI for optimal Apple Silicon performance
 
-## Requirements
+## Historical Requirements
 
 - macOS 14.0 or later
 - Xcode 15.0 or later (for building from source)
 - Apple Silicon (M1/M2/M3) or Intel Mac
 
-## Installation
+## Historical Setup Instructions
 
-### Option 1: Build from Source (Recommended)
+These instructions record the former setup process for reference and independent forks. They are no longer supported or verified against current tools and services.
+
+### Build from Source
 
 1. Clone the repository:
    ```bash
@@ -52,15 +57,15 @@ A native macOS application for viewing multiple Google Analytics real-time dashb
    cp -R ~/Library/Developer/Xcode/DerivedData/GA_Mac_Dashboard-*/Build/Products/Release/GA\ Mac\ Dashboard.app /Applications/
    ```
 
-### Option 2: Quick Development Build
+### Historical Development Build
 
-For development and testing:
+The former development and testing workflow was:
 ```bash
 open "GA Mac Dashboard.xcodeproj"
 # Press ⌘R in Xcode
 ```
 
-## Usage
+## Historical Usage
 
 ### Adding Dashboard URLs
 
@@ -94,7 +99,7 @@ Access settings via the gear icon or press `⌘,` to customize:
 - **WKWebView**: Apple's web rendering engine with shared session management
 - **UserDefaults**: Persistent storage for URLs and grid configuration
 
-## Building
+## Historical Build Reference
 
 ### Generate App Icons (Optional)
 
@@ -129,15 +134,20 @@ ga-mac-dash/
 ├── generate_icon.py                # Icon generation script
 ├── README.md
 ├── CONTRIBUTING.md
+├── SUPPORT.md                      # Retirement and support policy
 ├── CLAUDE.md                       # Development process documentation
 └── LICENSE
 ```
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+This retired project no longer accepts issues, pull requests, or other contributions. Independent forks are welcome under the [MIT License](LICENSE). See [CONTRIBUTING.md](CONTRIBUTING.md) for historical development guidance.
 
-## Development
+## Support
+
+Support and security updates ended in September 2026. See [SUPPORT.md](SUPPORT.md); no version is supported.
+
+## Historical Development
 
 This project was built with assistance from Claude AI. See [CLAUDE.md](CLAUDE.md) for details about the development process.
 

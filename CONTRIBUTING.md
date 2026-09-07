@@ -1,75 +1,36 @@
-# Contributing to GA Mac Dashboard
+# Contributions Closed — GA Mac Dashboard
 
-Thank you for your interest in contributing to GA Mac Dashboard! This document provides guidelines for contributing to the project.
+**Retired September 2026.** This project is unmaintained and will receive no further maintenance, features, bug fixes, or security updates. Issues, pull requests, feature proposals, and other contributions are no longer accepted or reviewed. There is no ongoing maintainer review or merge process.
 
-## Getting Started
+Independent forks are welcome under the existing [MIT License](LICENSE). Preserve its copyright and permission notices as required by the license. Fork maintainers set their own contribution and support policies; this project does not provide support for forks.
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/ga-mac-dash.git`
-3. Create a feature branch: `git checkout -b feature/your-feature-name`
-4. Make your changes
-5. Test thoroughly
-6. Commit your changes: `git commit -m "Add your feature"`
-7. Push to your fork: `git push origin feature/your-feature-name`
-8. Open a Pull Request
+See [SUPPORT.md](SUPPORT.md) for the retirement and support policy.
 
-## Development Requirements
+## Historical Development Guidance
+
+The following technical guidance records the former development practices for reference and independent forks. It is no longer maintained or verified against current tools and services. The former upstream contribution workflow has ended.
+
+See the [historical setup instructions](README.md#historical-setup-instructions) and [historical build reference](README.md#historical-build-reference).
+
+### Development Requirements
 
 - macOS 14.0 or later
 - Xcode 15.0 or later
 - Swift 6.0
 
-## Code Style
+### Code Style
 
 - Follow Swift API Design Guidelines
 - Use SwiftUI best practices
 - Keep code clean and well-commented
 - Write meaningful commit messages
 
-## Testing
+### Testing
 
-Before submitting a PR:
+The former manual testing checklist was:
+
 - Build and run the app in both Debug and Release configurations
 - Test on different macOS versions if possible
 - Verify the app works with multiple Google Analytics dashboards
 - Check that keyboard shortcuts work correctly
 - Test grid resizing functionality
-
-## Types of Contributions
-
-### Bug Fixes
-- Describe the bug clearly in your PR
-- Include steps to reproduce
-- Explain your fix
-
-### New Features
-- Open an issue first to discuss the feature
-- Ensure the feature aligns with the project's goals
-- Update documentation as needed
-
-### Documentation
-- Fix typos and improve clarity
-- Add examples and use cases
-- Update build instructions if needed
-
-## Pull Request Guidelines
-
-- Keep PRs focused on a single feature or fix
-- Include a clear description of changes
-- Reference related issues
-- Update README.md if needed
-- Ensure code builds without warnings
-
-## Code Review Process
-
-1. Maintainers will review your PR
-2. Address any requested changes
-3. Once approved, your PR will be merged
-
-## Questions?
-
-Open an issue for questions or discussions about contributing.
-
-## License
-
-By contributing, you agree that your contributions will be licensed under the MIT License.
