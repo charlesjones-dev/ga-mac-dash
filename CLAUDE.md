@@ -1,5 +1,7 @@
 # Built with Claude
 
+> **Historical documentation — retired September 2026.** This document records the original development process. The project is unmaintained and will receive no further maintenance, features, bug fixes, or security updates. Independent forks are welcome under the [MIT License](LICENSE).
+
 This project was built with assistance from Claude (Anthropic's AI assistant) using [Claude Code](https://claude.com/claude-code).
 
 ## Development Process
@@ -61,7 +63,7 @@ This project serves as an example of:
 
 ## Transparency
 
-This CLAUDE.md file exists to be transparent about the development process and acknowledge the role of AI assistance in creating this application. The code is open source (MIT License) and available for anyone to learn from, modify, or contribute to.
+This CLAUDE.md file exists to be transparent about the development process and acknowledge the role of AI assistance in creating this application. The code remains open source under the [MIT License](LICENSE) and available for anyone to learn from, modify, or develop in an independent fork.
 
 ---
 
